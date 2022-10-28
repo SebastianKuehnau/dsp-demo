@@ -4,7 +4,7 @@ title: SebTextField
 = SebTextField
 
 // tag::description[]
-SebTextField is a component that opens your mouth.
+SebTextField is a component that opens your mouth. This is an example code:
 // end::description[]
 
 [.example]

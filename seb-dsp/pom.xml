@@ -13,8 +13,8 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
         <!-- tag::vaadin-version[] -->
-        <vaadin.version>23.0.3</vaadin.version>
-        <hilla.version>1.0.3</hilla.version>
+        <vaadin.version>23.1.11</vaadin.version>
+        <hilla.version>1.1.11</hilla.version>
         <!-- end::vaadin-version[] -->
 
         <drivers.dir>${project.basedir}/drivers</drivers.dir>
@@ -25,7 +25,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.6.6</version>
+        <version>2.6.11</version>
     </parent>
     <!-- end::spring-version[] -->
 
@@ -180,14 +180,14 @@
         </dependency>
         <!-- Temporary addition until map component is added to the platform -->
         <dependency>
-            <groupId>com.vaadin</groupId>
-            <artifactId>vaadin-map-flow</artifactId>
-            <version>${vaadin.version}</version>
-        </dependency>
-        <dependency>
             <groupId>org.vaadin.seb</groupId>
             <artifactId>seb-components</artifactId>
             <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.vaadin</groupId>
+            <artifactId>vaadin-map-flow</artifactId>
+            <version>${vaadin.version}</version>
         </dependency>
     </dependencies>
 

@@ -6,7 +6,7 @@ import com.vaadin.flow.component.webcomponent.WebComponent;
 import com.vaadin.flow.internal.ReflectTools;
 import com.vaadin.flow.theme.Theme;
 
-@Theme("docs")
+@Theme("seb-theme")
 public abstract class DemoExporter<T extends Component> extends WebComponentExporter<T> {
 
   public DemoExporter() {

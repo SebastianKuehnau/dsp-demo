@@ -23,7 +23,7 @@ include::{articles}/_figma-banner.adoc[opts=optional]
 [.component-card]
 === Input Fields
 image::{components-path-prefix}input-fields/input-fields.png["", role="icon screenshot"]
-Input field components have common features such as label, helper text, disabled and required states, and more.
+Input field components have common features, such as label, helper text, disabled and required states, and more.
 <<{components-path-prefix}input-fields#,See Input Fields>>
 
 [.component-card]
@@ -117,6 +117,12 @@ include::text-field/index.asciidoc[tag=description]
 <<{components-path-prefix}text-field#,See Text Field>>
 
 [.component-card]
+=== Sebtextfield
+image::{components-path-prefix}sebtextfield/seb-text-field.png["", opts=inline, role="icon screenshot"]
+include::sebtextfield/index.asciidoc[tag=description]
+<<{components-path-prefix}sebtextfield#,See Sebtextfield>>
+
+[.component-card]
 === Time Picker
 image::{components-path-prefix}time-picker/time-picker.png["", opts=inline, role="icon screenshot"]
 include::time-picker/index.asciidoc[tag=description]
@@ -130,7 +136,7 @@ include::upload/index.asciidoc[tag=description]
 
 
 [.cards.quiet.component-cards]
-== Visualization & Interaction
+== Visualization and Interaction
 
 [.component-card]
 === Accordion

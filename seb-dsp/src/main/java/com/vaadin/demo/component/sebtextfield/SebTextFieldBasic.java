@@ -9,7 +9,9 @@ import com.vaadin.demo.DemoExporter;
 public class SebTextFieldBasic extends VerticalLayout {
     public SebTextFieldBasic() {
         // tag::snippet[]
-        add(new SebTextField("test"));
+        SebTextField seb_text_field_caption = new SebTextField("Seb Text Field Caption");
+        add(seb_text_field_caption);
+        seb_text_field_caption.addClassName("test");
         // end::snippet[]
     }
     public static class Exporter extends DemoExporter<SebTextFieldBasic> { // hidden-source-line

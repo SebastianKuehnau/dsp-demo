@@ -1,5 +1,5 @@
 ---
-title: Seb DSP Demo
+title: Seb Design System
 layout: index
 ---
 

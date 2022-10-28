@@ -1,11 +1,14 @@
 package org.example;
 
 import com.vaadin.flow.component.button.Button;
+import com.vaadin.flow.component.checkbox.Checkbox;
 import com.vaadin.flow.component.notification.Notification;
 import com.vaadin.flow.router.Route;
 import com.vaadin.flow.router.RouteAlias;
 import org.vaadin.seb.components.SebTextField;
 import org.vaadin.seb.views.AbstractView;
+
+import javax.swing.*;
 
 /**
  * The main view contains a button and a click listener.
@@ -18,6 +21,13 @@ public class MainView extends AbstractView {
         Button button = new Button("Click me",
                 event -> Notification.show("Clicked!"));
         add(button, new SebTextField("example input"));
+        add(new Checkbox("Checkbox"));
+
+//        add(new ButtonGroup(
+//                new Button("Button 1", event -> Notification.show("Event 1")),
+//                new Button("Button 2", event -> Notification.show("Event 2")),
+//                new Button("Button 3", event -> Notification.show("Event 3"))
+//        ));
     }
 
     @Override
