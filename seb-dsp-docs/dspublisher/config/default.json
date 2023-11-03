@@ -1,0 +1,8 @@
+{
+  "themePath": "dspublisher/docs-theme",
+  "title": "seb-dsp",
+  "asciidocAttributes": {
+    "flow": true,
+    "lit": true
+  }
+}
