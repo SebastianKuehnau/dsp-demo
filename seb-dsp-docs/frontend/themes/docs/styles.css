@@ -13,7 +13,7 @@
 
 html,
 :host {
-  /* Define explicitly until these are part of the main Vaadin build (vs just in CE) */
+   /*Define explicitly until these are part of the main Vaadin build (vs just in CE)*/
   --vaadin-user-color-0: #df0b92;
   --vaadin-user-color-1: #650acc;
   --vaadin-user-color-2: #097faa;
